@@ -515,7 +515,8 @@ li.icons3 {
 	padding: calc((620px - 364.15px) / 2) 30px calc((620px - 364.15px) / 2) 0;
 }
 
-.blogContent1 p {
+.blogContent1 p,
+.blogContent2 p {
 	width: 390px;
 }
 
@@ -527,7 +528,8 @@ li.icons3 {
 .blogContent2 {
 	float: right;
 	width: 50%;
-	padding: calc((620px - 270.15px) / 2) 0 calc((620px - 270.15px) / 2) 70px;
+	padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 70px;
+	/* padding: calc((620px - 270.15px) / 2) 0 calc((620px - 270.15px) / 2) 70px; */
 }
 
 /* info section */
@@ -580,7 +582,8 @@ footer p {
 		line-height: 4rem;
 	}
 
-	.blogContent1 p {
+	.blog h2,
+	.blog p {
 		width: 350px;
 	}
 
@@ -594,6 +597,10 @@ footer p {
 @media (max-width: 768px) {
 	h1 span {
 		display: block;
+	}
+
+	h2 {
+		text-align: center;
 	}
 
 	/* .container {
@@ -656,6 +663,10 @@ footer p {
 
 	/* blog content */
 
+	.blog p {
+		width: 100%;
+	}
+
 	.blogImg1,
 	.blogContent1,
 	.blogImg2,
@@ -672,11 +683,6 @@ footer p {
 	.blogContent1,
 	.blogContent2 {
 		padding: 30px 0;
-	}
-
-	.blogContent1 p,
-	.blogContent2 p {
-		width: 100%;
 	}
 
 	div.button {
