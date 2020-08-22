@@ -500,12 +500,17 @@ h1 {
 /* icons section */
 
 .icons {
+
 	text-align: center;
 }
 .icons li {
 	float: left;
 	width: calc((100% - 60px) / 3);
 	margin-right: 30px;
+}
+
+.icons a {
+	color: #0178A5;
 }
 
 .icons li:last-of-type {
