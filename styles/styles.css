@@ -397,8 +397,8 @@ h2 {
 }
 
 h3 {
-	font-size: 5.3rem;
-	line-height: 3.6rem;
+	font-size: 5.1rem;
+	line-height: 3.4rem;
 }
 
 .icons {
@@ -409,6 +409,10 @@ a {
 	text-decoration: none;
 	color: inherit;
 	transition: all 0.5s;
+}
+
+.socials a {
+	font-size: 3rem;
 }
 
 a:focus {
@@ -423,12 +427,7 @@ a:hover {
 }
 
 .socials a:hover {
-	font-size: 2.8rem;
-	color: inherit;
-}
-
-.socials a:hover {
-	font-size: 3rem;
+	font-size: 3.4rem;
 	color: inherit;
 }
 
@@ -686,7 +685,7 @@ DESKTOP - LARGE LAPTOPS */
 @media (max-width: 1024px) {
 	/* @m1024 FONTS */
 	h2 {
-		font-size: 5.8rem;
+		font-size: 6rem;
 		line-height: 3.9rem;
 	}
 
