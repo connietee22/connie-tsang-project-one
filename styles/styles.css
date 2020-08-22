@@ -397,7 +397,7 @@ h2 {
 }
 
 h3 {
-	font-size: 5.4rem;
+	font-size: 5.3rem;
 	line-height: 3.6rem;
 }
 
@@ -586,7 +586,7 @@ h1 {
 .blog-content2 {
 	float: right;
 	width: 50%;
-	/* padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 25px; */
+	padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 25px;
 }
 
 /* footer + info section */
@@ -686,22 +686,27 @@ DESKTOP - LARGE LAPTOPS */
 @media (max-width: 1024px) {
 	/* @m1024 FONTS */
 	h2 {
-		font-size: 6.3rem;
-		line-height: 4rem;
+		font-size: 5.8rem;
+		line-height: 3.9rem;
 	}
 
 	.blog p {
 		width: 350px;
 	}
 
+	p {
+		font-size: 1.8rem;
+		line-height: 2.6rem;
+	}
+
 	/* @M1024 blog section */
 
 	.blog-content1 {
-		padding: calc((620px - 408px) / 2) 40px calc((620px - 408px) / 2) 0;
+		padding: calc((620px - 352px) / 2) 40px calc((620px - 352px) / 2) 0;
 	}
 
 	.blog-content2 {
-		padding: calc((620px - 365px) / 2) 0 calc((620px - 365px) / 2) 25px;
+		padding: calc((620px - 312px) / 2) 0 calc((620px - 312px) / 2) 20px;
 	}
 
 	/* @M1024 icons */
