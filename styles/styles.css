@@ -591,6 +591,9 @@ h1 {
 
 /* footer + info section */
 
+.footer-container {
+	padding: 65px 0;
+}
 .nav-container nav {
 	padding-bottom: 40px;
 }
