@@ -411,10 +411,8 @@ a {
 	transition: all 0.5s;
 }
 
-a:focus,
-a:active {
+a:focus {
 	outline: 3px solid #97366585;
-	/* border-radius: 10px; */
 	padding: 5px 10px;
 	font-size: 2.3rem;
 }
@@ -425,8 +423,19 @@ a:hover {
 }
 
 .socials a:hover {
+	font-size: 2.8rem;
+	color: inherit;
+}
+
+.socials a:hover {
 	font-size: 3rem;
 	color: inherit;
+}
+
+button:hover,
+button:focus,
+input:focus {
+	outline: 3px solid #973665;
 }
 
 /* header styles  */
@@ -473,17 +482,13 @@ h1 {
 	color: #fff;
 	font-size: 2.3rem;
 	position: absolute;
-	bottom: 30px;
+	bottom: 40px;
 	right: 50px;
 	text-align: center;
 }
 
-.socials a {
-	text-shadow: 3px 3px 3px black;
-}
-
 .socials li {
-	margin-bottom: 15px;
+	margin: 15px;
 }
 
 /* products section */
@@ -502,7 +507,7 @@ h1 {
 
 /* latest exhibitions section */
 
-.latest h2 {
+.gallery h2 {
 	text-align: center;
 }
 
@@ -610,7 +615,6 @@ h1 {
 .info p {
 	font-size: 1.7rem;
 	line-height: 2.2rem;
-	/* margin-top: 2rem; */
 }
 
 .info p:last-of-type {
