@@ -674,8 +674,13 @@ DESKTOP - LARGE LAPTOPS */
 
 	.nav-container li {
 		float: left;
-		width: 25%;
+		margin-right: 20px;
+		width: calc((100% - 60px) / 4);
 		text-align: center;
+	}
+
+	.nav-container li:last-of-type {
+		margin-right: 0;
 	}
 
 	.newsletter {
@@ -719,10 +724,14 @@ DESKTOP - LARGE LAPTOPS */
 
 	/* ICONS 1024px */
 
-	.icons li {
+	.icon-container li {
 		float: none;
 		width: 100%;
 		margin-bottom: 40px;
+	}
+
+	.icon-container:nth-child(3) {
+		margin-bottom: none;
 	}
 }
 /* @768 MEDIA BREAKPOINT */
@@ -819,12 +828,26 @@ DESKTOP - LARGE LAPTOPS */
 		text-align: center;
 	}
 
-	/* @M768 FOOTER SECTION */
+	/* FOOTER SECTION 768px */
 
 	.newsletter,
 	.info {
 		width: 100%;
 		text-align: center;
 		float: none;
+	}
+
+	.nav-container li {
+		margin-right: 10px;
+		width: calc((100% - 30px) / 4);
+	}
+
+	.nav-container li:last-of-type {
+		margin-right: 0;
+	}
+
+	input {
+		width: 100%;
+		margin-bottom: 10px;
 	}
 }
