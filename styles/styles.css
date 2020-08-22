@@ -355,6 +355,16 @@ section:nth-child(odd),
 	background-color: #ffe9e9; /* very light pink */
 }
 
+button {
+	font-size: 3.6rem;
+	text-transform: lowercase;
+	width: 175px;
+	height: 50px;
+	background-color: #0178a5;
+	color: #ffe9e9;
+	border: none;
+}
+
 /* font styles */
 
 h1,
@@ -377,6 +387,7 @@ nav {
 
 p {
 	font-weight: 400;
+	margin-bottom: 25px;
 }
 
 h2 {
@@ -394,18 +405,28 @@ h3 {
 	font-size: 4rem;
 }
 
-p {
-	margin-bottom: 25px;
+a {
+	text-decoration: none;
+	color: inherit;
+	transition: all 0.5s;
 }
 
-button {
-	font-size: 3.6rem;
-	text-transform: lowercase;
-	width: 175px;
-	height: 50px;
-	background-color: #0178a5;
-	color: #ffe9e9;
-	border: none;
+a:focus,
+a:active {
+	outline: 3px solid #97366585;
+	/* border-radius: 10px; */
+	padding: 5px 10px;
+	font-size: 2.3rem;
+}
+
+a:hover {
+	font-size: 2.5rem;
+	color: #973665;
+}
+
+.socials a:hover {
+	font-size: 3rem;
+	color: inherit;
 }
 
 /* header styles  */
@@ -432,11 +453,6 @@ header nav li {
 	margin: 5px;
 }
 
-a {
-	text-decoration: none;
-	color: inherit; /* dark */
-}
-
 .fa-bars {
 	color: #ffe9e9;
 	display: none;
@@ -455,15 +471,19 @@ h1 {
 
 .socials {
 	color: #fff;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	position: absolute;
 	bottom: 30px;
 	right: 50px;
 	text-align: center;
 }
 
+.socials a {
+	text-shadow: 3px 3px 3px black;
+}
+
 .socials li {
-	padding-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* products section */
@@ -586,10 +606,6 @@ h1 {
 	width: 25%;
 	text-align: right;
 }
-
-/* .contact h3 {
-	line-height: 2.75rem;
-} */
 
 .info p {
 	font-size: 1.7rem;
