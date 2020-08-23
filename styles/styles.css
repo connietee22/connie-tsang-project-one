@@ -541,12 +541,12 @@ h1 {
 	margin-right: 30px;
 }
 
-.icons a {
-	color: #0178a5;
-}
-
 .icons li:last-of-type {
 	margin-right: 0px;
+}
+
+.icons a {
+	color: #0178a5;
 }
 
 /* blog */
@@ -730,7 +730,7 @@ DESKTOP - LARGE LAPTOPS */
 		margin-bottom: 40px;
 	}
 
-	.icon-container:nth-child(3) {
+	.icon-container li:last-child {
 		margin-bottom: none;
 	}
 }
