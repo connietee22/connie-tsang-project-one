@@ -828,26 +828,28 @@ DESKTOP - LARGE LAPTOPS */
 		text-align: center;
 	}
 
-	/* FOOTER SECTION 768px */
+	@media (max-width: 600px) {
+		/* FOOTER SECTION 600px */
 
-	.newsletter,
-	.info {
-		width: 100%;
-		text-align: center;
-		float: none;
-	}
+		.newsletter,
+		.info {
+			width: 100%;
+			text-align: center;
+			float: none;
+		}
 
-	.nav-container li {
-		margin-right: 10px;
-		width: calc((100% - 30px) / 4);
-	}
+		.nav-container li {
+			margin-right: 10px;
+			width: calc((100% - 30px) / 4);
+		}
 
-	.nav-container li:last-of-type {
-		margin-right: 0;
-	}
+		.nav-container li:last-of-type {
+			margin-right: 0;
+		}
 
-	input {
-		width: 100%;
-		margin-bottom: 10px;
+		input {
+			width: 100%;
+			margin-bottom: 10px;
+		}
 	}
 }
