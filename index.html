@@ -13,21 +13,21 @@
 	</head>
 
 	<body>
-		<a href="#maincontent" class="skip-link">Skip to main content</a>
+		<a href="#main" class="skip-link">Skip to main content</a>
+		<!-- HEADER SECTION -->
 		<header id="home">
-			<nav>
-				<div class="wrapper clearfix">
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#blog">Blog</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-
-					<i class="fa fa-bars"></i>
-				</div>
+			<nav class="wrapper clearfix">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- HAMBURGER MENU TO APPEAR AT 768PX -->
+				<i class="fa fa-bars"></i>
 			</nav>
-			<div class="socials">
+			<!-- SOCIAL MEDIA ICONS -->
+			<div class="socials" aria-label="social media navigation">
 				<ul>
 					<li>
 						<a href="#" aria-label="instagram profile">
@@ -55,8 +55,10 @@
 				<h1>Paint Gallery</h1>
 			</div>
 		</header>
+		<!-- MAIN BODY -->
+		<main id="main">
 
-		<main id="main-content">
+			<!-- PRODUCTS SECTION -->
 			<section class="products">
 				<div class="wrapper clearfix">
 					<div class="product-container">
@@ -65,17 +67,16 @@
 					<div class="product-summary">
 						<h2>New product on the shelves</h2>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi est tenetur hic
-							iste reiciendis alias repudiandae at dolores nobis esse sint possimus excepturi, voluptatum
-							dolore quis perferendis culpa beatae tempora quae eveniet iusto dolor rerum? Libero aut
-							nihil tempora, impedit eos veniam. Aliquid nulla aliquam fugiat dignissimos! Similique
-							provident excepturi quibusdam quae ut amet quasi quam quia doloribus voluptatem. Officiis
-							itaque dignissimos, ea dolorem aperiam. Vero, debitis!
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur animi est tenetur hiciste reiciendis alias repudiandae at dolores nobis esse sint possimus excepturi, voluptatum dolore quis perferendis culpa beatae tempora quae eveniet iusto dolor rerum? Libero aut nihil tempora, impedit eos veniam. Aliquid nulla aliquam fugiat dignissimos! Similique provident excepturi quibusdam quae ut amet quasi quam quia doloribus voluptatem. Officiis itaque dignissimos, ea dolorem aperiam. Vero, debitis!
 						</p>
-						<div class="button blue"><button>Read more</button></div>
+						<div class="button">
+							<a href="#"><button>Read more</button></a>
+						</div>
 					</div>
 				</div>
 			</section>
+
+			<!-- GALLERY SECTION -->
 			<section class="gallery clearfix" id="gallery">
 				<div class="wrapper gallery-container">
 					<h2>Latest exhibitions</h2>
@@ -83,17 +84,16 @@
 						<img src="./assets/gallery-image-1@2x.png" alt="close-up of a vibrant abstract painting" />
 					</div>
 					<div class="latest-img-container">
-						<img src="./assets/gallery-image-2@2x.png" alt="close-up of vibrant abstract painting" />
+						<img src="./assets/gallery-image-3@2x.png" alt="artist's work space with scattered paint containers" />
 					</div>
 					<div class="latest-img-container">
-						<img
-							src="./assets/gallery-image-3@2x.png"
-							alt="artist's work space with scattered paint containers"
+						<img src="./assets/gallery-image-2@2x.png" alt="close-up of vibrant abstract painting"
 						/>
 					</div>
 				</div>
 			</section>
 
+			<!-- ICON LINKS TO CATALOGUE, EVENTS, COLLABS  -->
 			<section class="icons">
 				<ul class="wrapper clearfix icon-container">
 					<li>
@@ -104,16 +104,18 @@
 						<a href="#"><i class="far fa-calendar-alt"></i></a>
 						<h3>events</h3>
 					</li>
-					<li class="last">
+					<li>
 						<a href="#"><i class="far fa-handshake"></i></a>
 						<h3>collaborations</h3>
 					</li>
 				</ul>
 			</section>
 
+			<!-- BLOG SECTION -->
 			<section class="blog clearfix" id="blog">
-				<img src="./assets/right-image@2x.png" alt="paintbrushes" class="blogImg1" />
-
+				<div>
+					<img src="./assets/right-image@2x.png" alt="paintbrushes" class="blogImg1" />
+				</div>
 				<div class="wrapper">
 					<div class="blog-content1">
 						<h2>Finding the right brushes</h2>
@@ -122,11 +124,15 @@
 							dolor quas necessitatibus dolores ducimus ea eius rem pariatur iusto culpa alias sunt
 							doloribus? Fugiat dolor cum, corporis, quia sint laboriosam ut nulla voluptatum vel.
 						</p>
-						<div class="button"><button>Read more</button></div>
+						<div class="button">
+							<a href="#"><button>Read more</button></a>
+						</div>
 					</div>
 				</div>
-
-				<img src="./assets/left-image@2x.png" alt="paints" class="blogImg2" />
+				<!-- second blog link -->
+				<div>
+					<img src="./assets/left-image@2x.png" alt="paints" class="blogImg2" />
+				</div>
 				<div class="wrapper">
 					<div class="blog-content2">
 						<h2>All kinds of paint</h2>
@@ -136,15 +142,18 @@
 							doloribus? Necessitatibus, quasi debitis fugiat dolor cum, corporis, quia sint laboriosam ut
 							nulla voluptatum.
 						</p>
-						<div class="button"><button>Read more</button></div>
+						<div class="button">
+							<a href="#"><button>Read more</button></a>
+						</div>
 					</div>
 				</div>
 			</section>
 
+			<!-- FOOTER SECTION -->
 			<footer class="contact" id="contact">
 				<div class="clearfix wrapper footer-container">
-					<div class="nav-container">
-						<nav>
+					<!-- <div class="nav-container"> -->
+						<nav class = "nav-container">
 							<ul>
 								<li>
 									<a href="#home">Home</a>
@@ -160,7 +169,7 @@
 								</li>
 							</ul>
 						</nav>
-					</div>
+					<!-- </div> -->
 
 					<div class="newsletter">
 						<h3>Stay Updated</h3>

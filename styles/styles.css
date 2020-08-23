@@ -597,6 +597,10 @@ h1 {
 	padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 25px;
 }
 
+.blog button {
+	background-color: #A7059B;
+}
+
 /* footer + info section */
 
 .footer-container {
@@ -610,11 +614,12 @@ footer h3 {
 footer p {
 	margin: 0;
 }
-.nav-container nav {
-	padding-bottom: 40px;
+
+footer nav {
+	margin-bottom: 40px;
 }
 
-.nav-container {
+footer nav {
 	float: left;
 	width: 25%;
 }
@@ -663,23 +668,23 @@ DESKTOP - LARGE LAPTOPS */
 @media (max-width: 1275px) {
 	/* FOOTER SECTION 1275px */
 
-	.nav-container {
+	footer nav {
 		float: none; /* bringing up top */
 		padding: 0px 0 40px 0;
 	}
 
-	.nav-container {
+	footer nav {
 		width: 100%;
 	}
 
-	.nav-container li {
+	footer nav li {
 		float: left;
 		margin-right: 20px;
 		width: calc((100% - 60px) / 4);
 		text-align: center;
 	}
 
-	.nav-container li:last-of-type {
+	footer nav li:last-of-type {
 		margin-right: 0;
 	}
 
@@ -738,8 +743,9 @@ DESKTOP - LARGE LAPTOPS */
 /* TABLETS */
 
 @media (max-width: 768px) {
-	section {
-		padding: 65px 0;
+	section,
+	footer-container {
+		padding: 60px 0;
 	}
 
 	/* HEADER STYLES @M768 */
@@ -831,6 +837,9 @@ DESKTOP - LARGE LAPTOPS */
 	@media (max-width: 600px) {
 		/* FOOTER SECTION 600px */
 
+		.footer-container {
+			padding: 40px;
+		}
 		.newsletter,
 		.info {
 			width: 100%;
@@ -838,12 +847,12 @@ DESKTOP - LARGE LAPTOPS */
 			float: none;
 		}
 
-		.nav-container li {
+		footer nav li {
 			margin-right: 10px;
 			width: calc((100% - 30px) / 4);
 		}
 
-		.nav-container li:last-of-type {
+		footer nav li:last-of-type {
 			margin-right: 0;
 		}
 
