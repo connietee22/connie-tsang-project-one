@@ -582,7 +582,7 @@ header nav li {
 .blog-content2 {
 	float: right;
 	width: 50%;
-	padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 25px;
+	padding: calc((620px - 357.533px) / 2) 0 calc((620px - 357.533px) / 2) 100px;
 }
 
 .blog h2 {
@@ -657,6 +657,10 @@ input {
 DESKTOP - LARGE LAPTOPS */
 
 @media (max-width: 1275px) {
+	
+	.blog-content2 {
+		padding-left: 30px;
+	}
 	
 	/* FOOTER SECTION 1275px */
 	footer nav {
