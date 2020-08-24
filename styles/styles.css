@@ -557,24 +557,24 @@ header nav li {
 	background-color: #ffe9e9;
 }
 
-.blogImg1,
-.blogImg2 {
+.blog-image1,
+.blog-image2 {
 	object-fit: cover;
 	height: 620px;
 }
 
-.blogImg2 {
+.blog-image2 {
 	float: left;
 	width: 50%;
 }
 
-.blogImg1,
+.blog-image1,
 .blog-content1 {
 	width: 50%;
 	float: right;
 }
 
-/* idea of calcs as measurement of padding provided by Sean de Groot! */
+/* idea of calcs as measurement of padding credited to Sean de Groot in HelpCue */
 .blog-content1 {
 	padding: calc((620px - 364.15px) / 2) 30px calc((620px - 364.15px) / 2) 0;
 }
@@ -795,16 +795,16 @@ DESKTOP - LARGE LAPTOPS */
 	/* BLOG SECTION 768px */
 
 	/* to stack blog images and posts */
-	.blogImg1,
+	.blog-image1,
 	.blog-content1,
-	.blogImg2,
+	.blog-image2,
 	.blog-content2 {
 		float: none;
 		width: 100%;
 	}
 
-	.blogImg1,
-	.blogImg2 {
+	.blog-image1,
+	.blog-image2 {
 		height: 350px;
 	}
 
