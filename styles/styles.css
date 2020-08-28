@@ -666,7 +666,7 @@ DESKTOP - LARGE LAPTOPS */
 	footer nav {
 		width: 100%;
 		float: none; /* bringing up top */
-		padding: 0px 0 40px 0;
+		padding: 0px 0px 40px 0px;
 	}
 
 	footer nav li {
